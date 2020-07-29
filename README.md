@@ -41,10 +41,11 @@ By the end of Day 1 you need to submit:
 
 1. Your project idea (a brief 2-3 sentence description of your app)
 2. A list of your models and their properties
+3. Link to the `frontend` repository with project worksheet
+4. Link to the `backend` repository with project worksheet
 
 These and any other planning assets (wireframes, user stories, etc) should go
-inside a `planning/` directory inside your `backend` and `frontend` project repository.
-
+inside a `planning/` directory inside your `backend` and `frontend` project repository accordingly.
 
 ### Suggested Ways to Start
 
@@ -64,7 +65,7 @@ inside a `planning/` directory inside your `backend` and `frontend` project repo
 Your project is due on the last day of Project Week. Create an issue on this repo containing:
 
 - A link to your deployed application
-- A link to your Project 2 Github repositories (Do not fork this repo)
+- A link to your Project 2 Github repositories
 
 The repository for your backend API should include:
 
@@ -83,7 +84,7 @@ The repository for the frontend of your application should include:
 - A working frontend application built with HTML, CSS, Bootstrap, JQuery ect.
 - CRUD functionality
 - Frequent commits dating back to the very beginning of the project.
-- Mobile first, responsive web application.
+- Mobile first, responsive web application (Mobile, Tablet and Desktop).
 
 #### Deployment
 
