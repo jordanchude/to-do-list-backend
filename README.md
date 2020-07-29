@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Unit 2 Project - Build a full CRUD website
 
-#### Overview
+## Overview
 
 This project will give you a chance to use the skills we've learned in class to create a full CRUD site using the skills that you have learned in this unite. You'll get a chance to use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, as well as a custom API using MongoDB, Mongoose and Express backend.
 
