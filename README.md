@@ -29,7 +29,7 @@ Two separate repo's are requied for this project, one for the Back-End and one f
 - Your frontend must be responsive and work on mobile phones, tablets, and desktops
 - A mobile nav that expands and collapses when a user clicks on the hamburger icon.
 
-Review the [Rubric](./evaluation.md) for the specifics of how your project will
+Review the [Rubric](https://git.generalassemb.ly/SEIR-629/project-2/blob/master/evaluation-rubric.md) for the specifics of how your project will
 be graded.
 
 
