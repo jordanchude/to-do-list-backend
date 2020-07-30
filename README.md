@@ -61,6 +61,7 @@ inside a `planning/` directory inside your `backend` and `frontend` project repo
 - **Write pseudocode before you write actual code**. Thinking through the logic of something helps.
 
 ## Resources
+- Express/Mongoose API Boilerplate - https://mega.nz/file/fE0CzArS#qIzjdZ4hGaJBC-z0KygGrxvNLDbup1E9tCKkkJ2HK5M
 - Alex's Express/Mongoose playlist with videos on creating and deploying front and backend - https://www.youtube.com/playlist?list=PLY6oTPmKnKbbKIpNWuDompiM5EHfqbAad
 - Page with Reference Images for Heroku, Mongoose, Express and more - https://sites.google.com/view/expressmongooseimages/home
 - Link to zip file of example build from Tuesday/Wednesday build, for reference - https://mega.nz/file/nM03VSxR#BvUpMO1u2MsgbmG4glVWwlhFRM-lhy23B6ZmPC172kY
