@@ -1,99 +1,95 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Unit 2 Project - Build a full CRUD website
+# Project (Backend) Overview
 
-## Overview
+## Project Link
+- TBD
 
-This project will give you a chance to use the skills we've learned in class to create a full CRUD site using the skills that you have learned in this unite. You'll get a chance to use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, as well as a custom API using MongoDB, Mongoose and Express backend.
+## Project (Frontend Overview)
+- [Frontend Overview](https://github.com/jordanchude/to-do-list-frontend)
 
-You will be working individually for this project, but we'll be guiding you throughout the process and helping as you go.
+## Project Schedule
 
----
+|  Day | Deliverable | Status
+|---|---| ---|
+|Day 1| Project Description | Complete
+|Day 1| Priority Matrix / Backend Timeline | Incomplete
+|Day 2| Working RestAPI | Incomplete
+|Day 3| Working RestAPI & Frontend Communication | Incomplete
+|Day 4| MVP & Bug Fixes | Incomplete
+|Day 5| Final Touches and Present | Incomplete
 
-## Requirements
-It is important to keep in mind the goal of this program and these projects, they are to utilize the skills you have been taught and the skills that employers care about. You should strive to build projects that will catch an employers eye and get you hired.
+## Project Description
 
-### Technical Requirements
-Two separate repo's are requied for this project, one for the Back-End and one for the Front-End. They must not reside on the same repo.
+For my unit 02 project, I am going to create a to-do list tracker for a company and its employees. For the backend, each user request will either create a new employee (with their name, title, and to-do items displayed), edit/update an employee, delete an employee, create a new to-do item for a specific employee, edit/update a to-do item, or delete a to-do item. As each employee or employee to-do is created, edited or updated on the webpage, it'll be sent to a backend server to update the relevant data and show the user an updated webpage to reflect the changes.
 
-**Back-End Requirements:**
+## Google Sheet
 
-- Your back-end must be a Node, Express, and Mongoose API with at least 2
-  models, more if needed, and one association.
-- Must have Create, Read, Update, and Destroy functionality built throughout the
-  app (i.e. You don't need full CRUD on every model, just full CRUD throughout
-  your models where it makes sense).
+- [Link](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit?usp=sharing)
 
-**Front-End Requirements:**
-- Your front-end must use JQuery and leverage the backend API.
-- You must communicate with the back-end API RESTfully to Create, Read, Update,
-  and Destroy resources.
-- Your frontend must be responsive and work on mobile phones, tablets, and desktops
-- A mobile nav that expands and collapses when a user clicks on the hamburger icon.
+## Time/Priority Matrix 
 
-Review the [Rubric](https://git.generalassemb.ly/SEIR-629/project-2/blob/master/evaluation-rubric.md) for the specifics of how your project will
-be graded.
+### MVP/PostMVP - 5min
 
+#### MVP (examples)
 
-### Necessary Deliverables
-Your submission must include **all** of the following:
+- Pull data using google json api
+- Render data on page 
+- Allow user to choose favorites 
+- Save their choices in firebase
 
-#### Project Idea and Initial Planning
-By the end of Day 1 you need to submit:
+#### PostMVP 
 
-1. Your project idea (a brief 2-3 sentence description of your app)
-2. A list of your models and their properties
-3. Link to the `frontend` repository with project worksheet
-4. Link to the `backend` repository with project worksheet
+- Anything else that is not MVP
 
-These and any other planning assets (wireframes, user stories, etc) should go
-inside a `planning/` directory inside your `backend` and `frontend` project repository accordingly.
+## Functional Components
 
-### Suggested Ways to Start
+Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
 
-- **Don’t hesitate to write throwaway code** to solve short-term problems.
-- **Read the docs for whatever technologies, frameworks, or APIs you use**.
-- **Write your code DRY** and **build your APIs RESTful**.
-- **Commit early, commit often**. Don’t be afraid to break something because you can always go back in time to a previous version.
-- **Keep user stories small and well-defined**. Remember – user stories focus on what a user needs, not what development tasks need accomplishing.
-- **Write code another developer wouldn't have to ask you about**. Do your naming conventions make sense? Would another developer be able to look at your app and understand what everything is?
-- **Make it all well-formatted**. Are you indenting, consistently? Can we find the start and end of every div, curly brace, etc.?
-- **Comment your code**. Will someone understand what is going on in each block or function? Even if it's obvious, explaining the what & why means someone else can pick it up and get it.
-- **Write pseudocode before you write actual code**. Thinking through the logic of something helps.
+Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
-## Resources
-- Express/Mongoose API Boilerplate - https://mega.nz/file/fE0CzArS#qIzjdZ4hGaJBC-z0KygGrxvNLDbup1E9tCKkkJ2HK5M
-- Alex's Express/Mongoose playlist with videos on creating and deploying front and backend - https://www.youtube.com/playlist?list=PLY6oTPmKnKbbKIpNWuDompiM5EHfqbAad
-- Page with Reference Images for Heroku, Mongoose, Express and more - https://sites.google.com/view/expressmongooseimages/home
-- Link to zip file of example build from Tuesday/Wednesday build, for reference - https://mega.nz/file/nM03VSxR#BvUpMO1u2MsgbmG4glVWwlhFRM-lhy23B6ZmPC172kY
+#### MVP
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Hamburger | H | 1hr | 1.5hr | -hr|
+| Project Previews | H | 3hr | -hr | -hr|
+| Regular Nav | H | H | -hr | -hr|
+| Adding Form | H | 1.5hr| -hr | -hr |
+| Other sections and flex| M | 4hr | 2hr | -hr|
+| Working with API | H | 3hrs| 2hr | -hr |
+| Responsive | H | 3hr | -hr | -hr|
+| Social Media Icons | L | 1hr | -hr | -hr|
+| Total | H | 15.5hrs| -hrs | -hrs |
 
-### Final Application
+#### PostMVP
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Project Hover | L | 3hr | -hr | -hr|
+| Banner letters wiggle | L | 1hr | -hr | -hr|
+| Interactive Banner | M | 4hr | -hr | -hr|
+| Materialize | H | 4hr | -hr | -hr|
+| Bootstrap | H | 4hr | -hr | -hr|
+| Make own icon | L | 4hr | -hr | -hr|
+| Total | H | 20hrs| -hrs | -hrs |
 
-Your project is due on the last day of Project Week. Create an issue on this repo containing:
+## Additional Libraries
+ Use this section to list all supporting libraries and thier role in the project. 
 
-- A link to your deployed application
-- A link to your Project 2 Github repositories
+## Code Snippet
 
-The repository for your backend API should include:
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
-- A working JSON API built using Express and Mongoose that meets the technical requirements above.
-- Frequent commits dating back to the very beginning of the project.
-- A `planning/` directory in the root of your `backend` and `frontend` repo that contains a `readme` with all: 
-    - A couple of paragraphs about the **general approach you took**.
-    - Link to your **user stories** – who are your users, what do they want, and why?
-    - Link to your **wireframes** – sketches of  views and interfaces in your application.
-    - Link to your **Time/Priority** matrix 
-    - Table including functionality and estimated/actual time for completion
-    - Descriptions of any **unsolved problems** or **hurdles** you had to overcome.
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
 
-The repository for the frontend of your application should include:
+## Issues and Resolutions
+ Use this section to list of all major issues encountered and their resolution.
 
-- A working frontend application built with HTML, CSS, Bootstrap, JQuery ect.
-- CRUD functionality
-- Frequent commits dating back to the very beginning of the project.
-- Mobile first, responsive web application (Mobile, Tablet and Desktop).
+#### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object
 
-#### Deployment
-
-- Your API Backend must be deployed to Heroku and your front-end must be deployed to
-  Netlify. Applications that are not deployed will be considered incomplete.
- 
----
+## Previous Project Worksheet
+ - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
+ - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
