@@ -60,6 +60,11 @@ inside a `planning/` directory inside your `backend` and `frontend` project repo
 - **Comment your code**. Will someone understand what is going on in each block or function? Even if it's obvious, explaining the what & why means someone else can pick it up and get it.
 - **Write pseudocode before you write actual code**. Thinking through the logic of something helps.
 
+## Resources
+- Alex's Express/Mongoose playlist with videos on creating and deploying front and backend - https://www.youtube.com/playlist?list=PLY6oTPmKnKbbKIpNWuDompiM5EHfqbAad
+- Page with Reference Images for Heroku, Mongoose, Express and more - https://sites.google.com/view/expressmongooseimages/home
+- Link to zip file of example build from Tuesday/Wednesday build, for reference - https://mega.nz/file/nM03VSxR#BvUpMO1u2MsgbmG4glVWwlhFRM-lhy23B6ZmPC172kY
+
 ### Final Application
 
 Your project is due on the last day of Project Week. Create an issue on this repo containing:
