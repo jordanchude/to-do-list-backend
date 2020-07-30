@@ -52,7 +52,6 @@ inside a `planning/` directory inside your `backend` and `frontend` project repo
 - **Don’t hesitate to write throwaway code** to solve short-term problems.
 - **Read the docs for whatever technologies, frameworks, or APIs you use**.
 - **Write your code DRY** and **build your APIs RESTful**.
-- **Be consistent with your code style**. You're working in teams, but you're only making one app per team. Make sure it looks like a unified effort.
 - **Commit early, commit often**. Don’t be afraid to break something because you can always go back in time to a previous version.
 - **Keep user stories small and well-defined**. Remember – user stories focus on what a user needs, not what development tasks need accomplishing.
 - **Write code another developer wouldn't have to ask you about**. Do your naming conventions make sense? Would another developer be able to look at your app and understand what everything is?
@@ -83,7 +82,7 @@ The repository for your backend API should include:
     - Link to your **wireframes** – sketches of  views and interfaces in your application.
     - Link to your **Time/Priority** matrix 
     - Table including functionality and estimated/actual time for completion
-    - Descriptions of any **unsolved problems** or **hurdles** your team had to overcome.
+    - Descriptions of any **unsolved problems** or **hurdles** you had to overcome.
 
 The repository for the frontend of your application should include:
 
