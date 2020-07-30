@@ -30,44 +30,39 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 ### MVP/PostMVP - 5min
 
 #### MVP (examples)
-
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Backend server and database to hold employee and to-do list data
+- Functionality to add, remove, and update employee cards in database
+- Functionality to add, remove, and update employee to-do list in database
+- Automatically update and serve backend data to match user frontend
 
 #### PostMVP 
-
-- Anything else that is not MVP
+- Functionality to add another section, hobbies, to each employee card
 
 ## Functional Components
 
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
-
 #### MVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 3hr | -hr | -hr|
-| Regular Nav | H | H | -hr | -hr|
-| Adding Form | H | 1.5hr| -hr | -hr |
-| Other sections and flex| M | 4hr | 2hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
-| Responsive | H | 3hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 15.5hrs| -hrs | -hrs |
+| Component | Priority | Estimated Time | Time Invested |
+| --- | :---: |  :---: | :---: |
+| Configure Server | H | 1hr | 1.5hr |
+| Employee Schema and Model | H | 3hr |
+| Employee Route Handlers | H | H | -hr |
+| Employee Routes | H | 1.5hr| -hr |
+| Connect to Employee Server/Test Endpoints | M | 4hr | -hr |
+| To-do List Schema and Model | H | 3hrs| 2hr |
+| To-do List Router Handlers | H | 3hr | -hr |
+| To-Do List Routes | L | 1hr | -hr |
+| Connect to Server/Test To-Do List Endpoints | L | 1hr | -hr |
+| Total | H | 15.5hrs| -hrs |
 
 #### PostMVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested |
 | --- | :---: |  :---: | :---: | :---: |
 | Project Hover | L | 3hr | -hr | -hr|
 | Banner letters wiggle | L | 1hr | -hr | -hr|
 | Interactive Banner | M | 4hr | -hr | -hr|
 | Materialize | H | 4hr | -hr | -hr|
 | Bootstrap | H | 4hr | -hr | -hr|
-| Make own icon | L | 4hr | -hr | -hr|
+| Make own icon | L | 4hr | -hr |
 | Total | H | 20hrs| -hrs | -hrs |
 
 ## Additional Libraries
