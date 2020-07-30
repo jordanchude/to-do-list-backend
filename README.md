@@ -25,9 +25,8 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 
 - [Link](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit?usp=sharing)
 
-## Time/Priority Matrix 
-
-### MVP/PostMVP - 5min
+## Time/Priority Matrix
+- [Link]()
 
 #### MVP (examples)
 - Backend server and database to hold employee and to-do list data
@@ -56,21 +55,24 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invested |
-| --- | :---: |  :---: | :---: | :---: |
-| Project Hover | L | 3hr | -hr | -hr|
-| Banner letters wiggle | L | 1hr | -hr | -hr|
-| Interactive Banner | M | 4hr | -hr | -hr|
-| Materialize | H | 4hr | -hr | -hr|
-| Bootstrap | H | 4hr | -hr | -hr|
+| --- | :---: |  :---: | :---: |
+| Project Hover | L | 3hr | -hr |
+| Banner letters wiggle | L | 1hr | -hr |
+| Interactive Banner | M | 4hr | -hr |
+| Materialize | H | 4hr | -hr |
+| Bootstrap | H | 4hr | -hr |
 | Make own icon | L | 4hr | -hr |
 | Total | H | 20hrs| -hrs | -hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ - [Mongoose]()
+ - [Express]()
+ - [Dotenv]()
+ - [Morgan]()
+ - [Nodemon]()
+ - [Cors]()
 
 ## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
 ```
 function reverse(string) {
@@ -79,12 +81,7 @@ function reverse(string) {
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
-
-## Previous Project Worksheet
- - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
- - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
+#### SAMPLE
+- **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                       
+- **RESOLUTION**: Missing comma after first object in sources {} object
