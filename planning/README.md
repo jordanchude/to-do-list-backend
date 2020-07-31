@@ -50,15 +50,21 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 #### MVP
 | Component | Priority | Estimated Time | Time Invested |
 | --- | :---: |  :---: | :---: |
-| Configure Server | H | 1hr | 1.5hr |
-| Employee Schema and Model | H | 3hr |
-| Employee Route Handlers | H | H | -hr |
+| Configure Server | H | 1hr | -hr |
+| Employee Schema and Model | H | 1hr | -hr|
+| Employee Route Handlers | H | 1hr | -hr |
 | Employee Routes | H | 1.5hr| -hr |
 | Connect to Employee Server/Test Endpoints | M | 4hr | -hr |
 | To-do List Schema and Model | H | 3hrs| 2hr |
 | To-do List Router Handlers | H | 3hr | -hr |
 | To-Do List Routes | L | 1hr | -hr |
 | Connect to Server/Test To-Do List Endpoints | L | 1hr | -hr |
+| Functionality: Request Data & Populate Dom | L | 1hr | -hr |
+| Functionality: Grab Form Data & Submit Request | L | 1hr | -hr |
+| Functionality: Send Request to Delete Data | L | 1hr | -hr |
+| Functionality: Take Item Data and Populate Form | L | 1hr | -hr |
+| Functionality: Take Data from Edit Form and Submit Request | L | 1hr | -hr |
+| Functionality to Send Request to Delete Data | L | 1hr | -hr |
 | Total | H | 15.5hrs| -hrs |
 
 #### PostMVP
