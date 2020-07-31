@@ -36,14 +36,14 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 ## Time/Priority Matrix
 - [Link]()
 
-#### MVP (examples)
+## MVP (examples)
 - Backend server and database to hold employee and to-do list data
 - Functionality to add, remove, and update employee cards in database
 - Functionality to add, remove, and update employee to-do list in database
 - Automatically update and serve backend data to match user frontend
 - Deploy app to heroku
 
-#### PostMVP 
+## PostMVP 
 - Functionality to add another section, hobbies, to each employee card
 
 ## Functional Components
@@ -65,17 +65,20 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 | L | Delete: Send Request to Delete Data | H | 2hr | -hr |
 | M | Edit: Take Item Data and Populate Form | H | 2hr | -hr |
 | N | Update: Take Data from Edit Form & Submit Update Request | H | 2hr | -hr |
-| O | Deployment | H | 3hr | -hr |
-| -- | Total | H | 28hrs| -hrs |
+| O | Debugging | H | 2hr | -hr |
+| P | Documentation | H | 1hr | -hr |
+| Q | Deployment | H | 3hr | -hr |
+| -- | Total | -- | 29hrs| -hrs |
 
 #### PostMVP
 |Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| P | Hobbies Schema and Model | H | 1hr | -hr|
-| Q | Hobbies Route Handlers | H | 1hr | -hr |
-| R | Hobbies Routes | H | 1hr| -hr |
-| S | Connect to Employee Server/Test Endpoints | H | 4hr | -hr |
-| -- | Total | 7hrs| -hrs | -hrs |
+| R | Hobbies Schema and Model | L | 1hr | -hr|
+| S | Hobbies Route Handlers | L | 1hr | -hr |
+| T | Hobbies Routes | L | 1hr| -hr |
+| U | Connect to Employee Server/Test Endpoints | L | 4hr | -hr |
+| V | Refactor | M | 2hr | -hr |
+| -- | Total | -- | 9hrs | -hrs |
 
 ## Additional Libraries
  - [Mongoose](https://mongoosejs.com/)
