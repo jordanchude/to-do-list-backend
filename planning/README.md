@@ -34,7 +34,7 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 - [Link](https://docs.google.com/spreadsheets/d/1DRhpnHYU-LVnRYKSALXm_xbMCZ3FsTs6Zl-VJ1MU49E/edit?usp=sharing)
 
 ## Time/Priority Matrix
-- [Link]()
+- [Link](https://res.cloudinary.com/dpjdvsigb/image/upload/v1596220020/project-2-assets/frontend-time-priority-matrix_qddjuq.jpg)
 
 ## MVP (examples)
 - Backend server and database to hold employee and to-do list data
