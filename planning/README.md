@@ -4,7 +4,7 @@
 - TBD
 
 ## Project (Frontend Overview)
-- [Frontend Overview](https://github.com/jordanchude/to-do-list-frontend)
+- [Frontend Overview](https://github.com/jordanchude/to-do-list-frontend/blob/master/planning/README.md)
 
 ## Project Schedule
 
@@ -34,7 +34,7 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 - [Link](https://docs.google.com/spreadsheets/d/1DRhpnHYU-LVnRYKSALXm_xbMCZ3FsTs6Zl-VJ1MU49E/edit?usp=sharing)
 
 ## Time/Priority Matrix
-- [Link](https://res.cloudinary.com/dpjdvsigb/image/upload/v1596220020/project-2-assets/frontend-time-priority-matrix_qddjuq.jpg)
+- [Link](https://res.cloudinary.com/dpjdvsigb/image/upload/v1596221477/project-2-assets/backend-time-priority-matrix_pvi4e0.jpg)
 
 ## MVP (examples)
 - Backend server and database to hold employee and to-do list data
