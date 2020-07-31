@@ -21,6 +21,14 @@
 
 For my unit 02 project, I am going to create a to-do list tracker for a company and its employees. For the backend, each user request will either create a new employee (with their name, title, and to-do items displayed), edit/update an employee, delete an employee, create a new to-do item for a specific employee, edit/update a to-do item, or delete a to-do item. As each employee or employee to-do is created, edited or updated on the webpage, it'll be sent to a backend server to update the relevant data and show the user an updated webpage to reflect the changes.
 
+## User Stories
+**Users are able to...**
+- Use a responsive navigation bar on desktop, tablet, and mobile to navigate to the to-do list section and the top of the page.
+- Scroll down to each added employee and their corresponding to-do list to stay updated on any changes.
+- Press a call-to-action button under the header/jumbotron to add an employee card with their name, title, photo for the top of their to-do list, and to-do list items.
+- Press an edit button on each created card to edit the name, photo, title, and/or to-do list to reflect any to-do list, title, name, or preferred photo updates.
+- Press a delete button on each created card to remove a card when an employee is terminated.
+
 ## Google Sheet
 
 - [Link](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit?usp=sharing)
