@@ -5,18 +5,14 @@ const app = express();
 const mongoose = require('mongoose');
 const morgan = require("morgan");
 const cors = require("cors");
+const EmployeeRouter = require('./routes/employee');
 
 //GLOBAL VARIABLES
 const PORT = process.env.PORT;
 const NODE_ENV = process.env.NODE_ENV;
 const mongoURI = process.env.mongoURI;
-const db = mongoose.connection
 const mongoConfigObject = {useNewUrlParser: true, useUnifiedTopology: true};
-
-//CONNECT TO DATABASE
-mongoose.connect(mongoURI, mongoConfigObject, () => {
-    console.log("Connected to mongo!");
-})
+const db = require('./db/connection');
 
 //CONNECTION MESSAGES
 db.on("error", (err) => console.log(err.message + ", is Mongod not running?"));
@@ -42,14 +38,16 @@ NODE_ENV === "development" ? app.use(cors()) : app.use(cors(corsOptions));
 app.use(express.json());
 app.use(morgan("dev"));
 app.use(express.static("public"));
-//app.use("/", toDoRouter);
 
 //ROUTES
 //TEST ROUTE
-app.get('/', (req, res) => {
-    res.send("Hello World");
-});
+// app.get('/', (req, res) => {
+//     res.send("Hello World");
+// });
 
+app.use("/", EmployeeRouter);
+
+//SERVER LISTENER
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 });

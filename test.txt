@@ -1,0 +1,3 @@
+db.employees.find(ObjectId("5f25db5e4f106513fecb2f0d")).pretty()
+
+Employee.findOne({_id: "5f25db5e4f106513fecb2f0d"}

@@ -1,7 +1,20 @@
-const mongoose = require('mongoose');
+const mongoose =  require('mongoose');
 
-mongoose.connect('mongodb://localhost/employees', { useNewUrlParser: true, useUnifiedTopology: true });
+//use environment URI if available
+let MONGODB_URI = process.env.PROD_MONGODB || process.env.MONGODB_URI || 'mongodb://localhost:27017/toDoCollection'
 
-mongoose.Promise = Promise
+//connect to database
+mongoose
+    .connect(MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true})
+    .catch(e => {
+        console.error('Connection error', e.message);
+    });
 
-module.exports = mongoose
+const db = mongoose.connection;
+
+//connect messaging
+db.on("error", (err) => console.log(err.message + "\nIs Mongod not running?"));
+db.on("connected", () => console.log("MongoDB connected!"));
+db.on("disconnected", () => console.log("MongoDB disconnected."));
+
+module.exports = db;

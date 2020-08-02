@@ -1,13 +1,11 @@
-//IMPORT CONNECTION
-const mongoose = require('../db/connection');
-
-//IMPORT SCHEMA AND MODEL
-const {Schema, model} = require('mongoose');
+const mongoose = require('mongoose');
+const {Schema, model} = mongoose;
 
 //SCHEMA
 const EmployeeSchema = new Schema ({
     name: String,
     title: String,
+    photo: String,
     toDos: [
         {
             type: Schema.Types.ObjectId,
@@ -16,4 +14,5 @@ const EmployeeSchema = new Schema ({
     ]
 }, {timestamps: true});
 
-module.exports = mongoose.model('Employee', EmployeeSchema);
+let Employee = mongoose.model('Employee', EmployeeSchema);
+module.exports = Employee;
