@@ -1,3 +1,1 @@
-db.employees.find(ObjectId("5f25db5e4f106513fecb2f0d")).pretty()
-
-Employee.findOne({_id: "5f25db5e4f106513fecb2f0d"}
+mongoURI='mongodb+srv://user:password12345@cluster0.flrht.mongodb.net/employeeToDos?retryWrites=true&w=majority'

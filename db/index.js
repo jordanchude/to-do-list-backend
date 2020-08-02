@@ -1,7 +1,7 @@
 const mongoose =  require('mongoose');
 
 //use environment URI if available
-let MONGODB_URI = process.env.PROD_MONGODB || process.env.MONGODB_URI || 'mongodb://localhost:27017/toDoCollection'
+let MONGODB_URI = "mongodb://localhost:27017/"
 
 //connect to database
 mongoose
