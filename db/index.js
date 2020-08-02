@@ -1,7 +1,7 @@
 const mongoose =  require('mongoose');
 
 //use environment URI if available
-let MONGODB_URI = "mongodb://localhost:27017/"
+let MONGODB_URI = "mongodb+srv://user:password12345@cluster0.flrht.mongodb.net/employeeToDos?retryWrites=true&w=majority"
 
 //connect to database
 mongoose
