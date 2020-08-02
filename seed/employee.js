@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
-const db = require('../db/connection');
 const Employee = require('../models/employee');
+const mongoURI = process.env.mongoURI;
+const db = require('../db/index');
 
 const employeeSeed = [
     {

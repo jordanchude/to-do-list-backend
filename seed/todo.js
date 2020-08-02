@@ -1,4 +1,5 @@
-const db = require('../db/connection');
+const mongoose = require('mongoose');
+const db = require('../db/index');
 const Employee = require('../models/employee');
 const ToDo = require('../models/toDo');
 
