@@ -11,10 +11,10 @@
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 1| Priority Matrix / Backend Timeline | Incomplete
-|Day 2| Working RestAPI | Incomplete
-|Day 3| Working RestAPI & Frontend Communication | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 1| Priority Matrix / Backend Timeline | Complete
+|Day 2| Working RestAPI | Complete
+|Day 3| Working RestAPI & Frontend Communication | Complete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 ## Project Description
@@ -51,23 +51,24 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 #### MVP
 |Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| A | Configure Server | H | 1hr | -hr |
-| B | Employee Schema and Model | H | 1hr | -hr|
-| C | Employee Route Handlers | H | 1hr | -hr |
-| D | Employee Routes | H | 1hr| -hr |
-| E | Connect to Employee Server/Test Endpoints | H | 4hr | -hr |
-| F | To-do List Schema and Model | H | 1hrs| 2hr |
-| G | To-do List Router Handlers | H | 1hr | -hr |
-| H | To-Do List Routes | H | 1hr | 1hr |
-| I | Connect to Server/Test To-Do List Endpoints | H | 4hr | -hr |
-| J | Functionality to Request Data & Populate Dom | H | 2hr | -hr |
-| K | Create: Grab Form Data & Submit Request | H | 2hr | -hr |
-| L | Delete: Send Request to Delete Data | H | 2hr | -hr |
-| M | Edit: Take Item Data and Populate Form | H | 2hr | -hr |
-| N | Update: Take Data from Edit Form & Submit Update Request | H | 2hr | -hr |
-| O | Debugging | H | 2hr | -hr |
+| A | Configure Server | H | 1hr | 1hr |
+| B | Employee Schema and Model | H | 1hr | .5hr|
+| C | Employee Route Handlers | H | 1hr | .5hr |
+| D | Configure Seed Files | M | 1hr | 2hr |
+| D | Employee Routes | H | 1hr| 1hr |
+| E | Connect to Employee Server/Test Endpoints | H | 4hr | 4hr |
+| F | To-do List Schema and Model | H | 1hrs| .5hr |
+| G | To-do List Router Handlers | H | 1hr | 1hr |
+| H | To-Do List Routes | H | 1hr | .5hr |
+| I | Connect to Server/Test To-Do List Endpoints | H | 4hr | 2hr |
+| J | Functionality to Request Data & Populate Dom | H | 2hr | 6hr |
+| K | Create: Grab Form Data & Submit Request | H | 2hr | 1hr |
+| L | Delete: Send Request to Delete Data | H | 2hr | 1hr |
+| M | Edit: Take Item Data and Populate Form | H | 2hr | .5hr |
+| N | Update: Take Data from Edit Form & Submit Update Request | H | 2hr | 1.5hr |
+| O | Debugging | H | 2hr | 3hr |
 | P | Documentation | H | 1hr | -hr |
-| Q | Deployment | H | 3hr | -hr |
+| Q | Deployment | H | 3hr | 1hr |
 | -- | Total | -- | 29hrs| -hrs |
 
 #### PostMVP

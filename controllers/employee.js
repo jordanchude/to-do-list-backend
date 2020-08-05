@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 const db = mongoose.connection;
+
+//IMPORTED MODELS
 const Employee = require('../models/employee');
 const ToDo = require('../models/toDo');
 
