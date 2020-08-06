@@ -35,7 +35,7 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 - [Link](https://docs.google.com/spreadsheets/d/1DRhpnHYU-LVnRYKSALXm_xbMCZ3FsTs6Zl-VJ1MU49E/edit?usp=sharing)
 
 ## Time/Priority Matrix
-- [Link](https://res.cloudinary.com/dpjdvsigb/image/upload/v1596221477/project-2-assets/backend-time-priority-matrix_pvi4e0.jpg)
+- [Link](https://res.cloudinary.com/dpjdvsigb/image/upload/v1596721596/project-2-assets/backend-time-priority-matrix_bk6ciz.jpg)
 
 ## MVP (examples)
 - Backend server and database to hold employee and to-do list data
@@ -96,14 +96,35 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 
 ## Code Snippet
 
+- The code snippet below creates an employee by making the user entry a new object and facilitating a post request to the server to add the object to the database.
+
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const createEmployee = async () => {
+    const newEmployee = {
+        name: $('#nameinput').val(),
+        title: $('#titleinput').val(),
+        photo: $('#photoinput').val()
+    }
+
+    const response = await fetch(`${URL}`, {
+        method: "post",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newEmployee)
+    })
+
+    $('#nameinput').val("")
+    $('#titleinput').val("")
+    $('#photoinput').val("")
+
+    $employeeCard.empty();
+    getEmployees();
 }
 ```
 
 ## Issues and Resolutions
 
 #### SAMPLE
-- **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                       
-- **RESOLUTION**: Missing comma after first object in sources {} object
+- **ERROR**: Error. Cannot PUT.                       
+- **RESOLUTION**: Removed a "/" in my fetch URL to the database.
