@@ -14,5 +14,7 @@ const EmployeeSchema = new Schema ({
     ]
 }, {timestamps: true});
 
+
+//EXPORT MODEL
 let Employee = mongoose.model('Employee', EmployeeSchema);
 module.exports = Employee;

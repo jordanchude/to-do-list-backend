@@ -10,8 +10,6 @@ const EmployeeRouter = require('./routes/employee');
 //GLOBAL VARIABLES
 const PORT = process.env.PORT;
 const NODE_ENV = process.env.NODE_ENV;
-// const mongoURI = process.env.mongoURI;
-// const mongoConfigObject = {useNewUrlParser: true, useUnifiedTopology: true};
 const db = require('./db/index');
 
 // //CONNECTION MESSAGES

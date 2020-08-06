@@ -1,3 +1,4 @@
+//require mongoose
 const mongoose =  require('mongoose');
 
 //use environment URI if available

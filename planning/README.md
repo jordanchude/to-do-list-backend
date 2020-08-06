@@ -1,7 +1,8 @@
 # Project (Backend) Overview
 
 ## Project Link
-- TBD
+- [Frontend](https://jovial-dijkstra-51d45a.netlify.app/)
+- [Backend](https://to-do-list-project-2.herokuapp.com/)
 
 ## Project (Frontend Overview)
 - [Frontend Overview](https://github.com/jordanchude/to-do-list-frontend/blob/master/planning/README.md)
@@ -69,9 +70,9 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 | N | Edit: Take Item Data and Populate Form | H | 2hr | .5hr |
 | O | Update: Take Data from Edit Form & Submit Update Request | H | 2hr | 1.5hr |
 | P | Debugging | H | 2hr | 3hr |
-| Q | Documentation | M | 1hr | -hr |
+| Q | Documentation | M | 1hr | 1hr |
 | R | Deployment | H | 3hr | 1hr |
-| -- | Total | -- | 32hrs| 27hrs |
+| -- | Total | -- | 32hrs| 28hrs |
 
 #### PostMVP
 |Letter | Component | Priority | Estimated Time | Time Invested |
@@ -96,35 +97,23 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 
 ## Code Snippet
 
-- The code snippet below creates an employee by making the user entry a new object and facilitating a post request to the server to add the object to the database.
+- The code snippet below is the schema for each employee, which holds a reference to a separate schema ID for each to do item.
 
 ```
-const createEmployee = async () => {
-    const newEmployee = {
-        name: $('#nameinput').val(),
-        title: $('#titleinput').val(),
-        photo: $('#photoinput').val()
-    }
-
-    const response = await fetch(`${URL}`, {
-        method: "post",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(newEmployee)
-    })
-
-    $('#nameinput').val("")
-    $('#titleinput').val("")
-    $('#photoinput').val("")
-
-    $employeeCard.empty();
-    getEmployees();
-}
+const EmployeeSchema = new Schema ({
+    name: String,
+    title: String,
+    photo: String,
+    toDos: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'ToDo'
+        }
+    ]
+}, {timestamps: true});
 ```
 
 ## Issues and Resolutions
 
-#### SAMPLE
 - **ERROR**: Error. Cannot PUT.                       
 - **RESOLUTION**: Removed a "/" in my fetch URL to the database.

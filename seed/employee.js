@@ -1,8 +1,10 @@
+//dependencies
 const mongoose = require('mongoose');
 const Employee = require('../models/employee');
 const mongoURI = process.env.mongoURI;
 const db = require('../db/index');
 
+//employee seed
 const employeeSeed = [
     {
         name: "Jordan Williams",
@@ -11,6 +13,7 @@ const employeeSeed = [
     }
 ];
 
+//insert employee seed to database
 Employee.insertMany(employeeSeed, (error, response) => {
     if (error) {
         console.log(error);
