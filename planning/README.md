@@ -19,14 +19,15 @@
 
 ## Project Description
 
-For my unit 02 project, I am going to create a to-do list tracker for a company and its employees. For the backend, each user request will either create a new employee (with their name, title, and to-do items displayed), edit/update an employee, delete an employee, create a new to-do item for a specific employee, edit/update a to-do item, or delete a to-do item. As each employee or employee to-do is created, edited or updated on the webpage, it'll be sent to a backend server to update the relevant data and show the user an updated webpage to reflect the changes.
+For my unit 02 project, I am going to create a to-do list tracker for a company and its employees. For the backend, each user request will either create a new employee (with their name, title, and to-do items displayed), edit/update an employee, delete an employee, create a new to-do item for a specific employee, or delete a to-do item. As each employee or employee to-do is created, edited or updated on the webpage, it'll be sent to a backend server to update the relevant data and show the user an updated webpage to reflect the changes.
 
 ## User Stories
 **Users are able to...**
-- Use a responsive navigation bar on desktop, tablet, and mobile to navigate to the to-do list section and the top of the page.
+- Use a responsive navigation bar on desktop, tablet, and mobile to navigate to the employee list, the section to add or update an employee, and the homepage.
 - Scroll down to each added employee and their corresponding to-do list to stay updated on any changes.
-- Press a call-to-action button under the header/jumbotron to add an employee card with their name, title, photo for the top of their to-do list, and to-do list items.
-- Press an edit button on each created card to edit the name, photo, title, and/or to-do list to reflect any to-do list, title, name, or preferred photo updates.
+- Use a form under the header/jumbotron to add an employee card with their name, title, photo for the top of their to-do list.
+- After creating the employee, use a link on the employee card to add a to-do item.
+- Press an edit button on each created card to edit the name, photo, and title of the specified employee.
 - Press a delete button on each created card to remove a card when an employee is terminated.
 
 ## Google Sheet
@@ -39,12 +40,13 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 ## MVP (examples)
 - Backend server and database to hold employee and to-do list data
 - Functionality to add, remove, and update employee cards in database
-- Functionality to add, remove, and update employee to-do list in database
+- Functionality to add and remove employee to-do list in database
 - Automatically update and serve backend data to match user frontend
 - Deploy app to heroku
 
 ## PostMVP 
 - Functionality to add another section, hobbies, to each employee card
+- Functionality to add priority to each to-do and sort by priority
 
 ## Functional Components
 
@@ -55,31 +57,34 @@ For my unit 02 project, I am going to create a to-do list tracker for a company 
 | B | Employee Schema and Model | H | 1hr | .5hr|
 | C | Employee Route Handlers | H | 1hr | .5hr |
 | D | Configure Seed Files | M | 1hr | 2hr |
-| D | Employee Routes | H | 1hr| 1hr |
-| E | Connect to Employee Server/Test Endpoints | H | 4hr | 4hr |
-| F | To-do List Schema and Model | H | 1hrs| .5hr |
-| G | To-do List Router Handlers | H | 1hr | 1hr |
-| H | To-Do List Routes | H | 1hr | .5hr |
-| I | Connect to Server/Test To-Do List Endpoints | H | 4hr | 2hr |
-| J | Functionality to Request Data & Populate Dom | H | 2hr | 6hr |
-| K | Create: Grab Form Data & Submit Request | H | 2hr | 1hr |
-| L | Delete: Send Request to Delete Data | H | 2hr | 1hr |
-| M | Edit: Take Item Data and Populate Form | H | 2hr | .5hr |
-| N | Update: Take Data from Edit Form & Submit Update Request | H | 2hr | 1.5hr |
-| O | Debugging | H | 2hr | 3hr |
-| P | Documentation | H | 1hr | -hr |
-| Q | Deployment | H | 3hr | 1hr |
-| -- | Total | -- | 29hrs| -hrs |
+| E | Employee Routes | H | 1hr| 1hr |
+| F | Connect to Employee Server/Test Endpoints | H | 4hr | 4hr |
+| G | To-do List Schema and Model | H | 1hrs| .5hr |
+| H | To-do List Router Handlers | H | 1hr | 1hr |
+| I | To-Do List Routes | H | 1hr | .5hr |
+| J | Connect to Server/Test To-Do List Endpoints | H | 4hr | 2hr |
+| K | Functionality to Request Data & Populate Dom | H | 2hr | 6hr |
+| L | Create: Grab Form Data & Submit Request | H | 2hr | 1hr |
+| M | Delete: Send Request to Delete Data | H | 2hr | 1hr |
+| N | Edit: Take Item Data and Populate Form | H | 2hr | .5hr |
+| O | Update: Take Data from Edit Form & Submit Update Request | H | 2hr | 1.5hr |
+| P | Debugging | H | 2hr | 3hr |
+| Q | Documentation | M | 1hr | -hr |
+| R | Deployment | H | 3hr | 1hr |
+| -- | Total | -- | 32hrs| 27hrs |
 
 #### PostMVP
 |Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| R | Hobbies Schema and Model | L | 1hr | -hr|
-| S | Hobbies Route Handlers | L | 1hr | -hr |
-| T | Hobbies Routes | L | 1hr| -hr |
-| U | Connect to Employee Server/Test Endpoints | L | 4hr | -hr |
-| V | Refactor | M | 2hr | -hr |
-| -- | Total | -- | 9hrs | -hrs |
+| S | Hobbies Schema and Model | L | 1hr | -hr|
+| T | Hobbies Route Handlers | L | 1hr | -hr |
+| U | Hobbies Routes | L | 1hr| -hr |
+| V | Connect to Employee Server/Test Endpoints | L | 4hr | -hr |
+| W	| Refactor | M | 2hr | -hr |
+| X	| Add Due Dates to To Do Schema/Model | M | 1hr | -hr |
+| Y	| Add Priority to To Do Schema/Model | M | 2hr | -hr |
+| Z	| Sort Tasks by Priority | M | 2hr | -hr |
+| -- | Total | -- | 9hrs | 0hrs |
 
 ## Additional Libraries
  - [Mongoose](https://mongoosejs.com/)
